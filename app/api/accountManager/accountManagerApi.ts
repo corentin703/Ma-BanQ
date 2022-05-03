@@ -6,7 +6,8 @@ export class AccountManagerApi {
 
   constructor() {
     this.api = create({
-      baseURL: 'https://loanapproval-accmanager.ew.r.appspot.com',
+      baseURL: 'https://arcane-brushlands-92194.herokuapp.com',
+      // baseURL: 'https://loanapproval-accmanager.ew.r.appspot.com',
       // baseURL: 'http://localhost:8080',
       headers: {
         Accept: 'application/json',
